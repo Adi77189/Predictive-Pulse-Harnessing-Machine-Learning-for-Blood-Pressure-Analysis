@@ -3,6 +3,7 @@ Objective : The Blood Pressure Prediction System is a machine learning-based web
 
 # Tech Stack
 🔹 Frontend (User Interface Layer)
+
     ● HTML5 : Used to build the structure of the input form.
     
     ● CSS3 : For basic styling and layout enhancements.
@@ -12,18 +13,27 @@ Objective : The Blood Pressure Prediction System is a machine learning-based web
 The UI is kept intentionally simple to ensure accessibility even on low-powered devices or slow networks. No JavaScript frameworks are used, ensuring the lowest learning curve for those exploring the code.
 
 🔹 Backend (Application & Logic Layer)
+
   ● Python 3.x : Primary programming language used.
+  
   ● Flask : A lightweight and efficient web framework used to build and serve
     the application.
+    
   ● Pickle : Python’s object serialization module used to save and load the trainedmachine learning model.
+  
   ● NumPy : For numerical array handling and preprocessing.
+  
   ● scikit-learn :  For model training, evaluation, and prediction.
+  
 The Flask app listens for POST requests from the frontend, converts input into anumerical format, feeds it into the model, and returns the predicted blood pressure value to be displayed.
 
 # ML Model & Integration
 ● Training & Evaluation – The model is trained offline using a structured dataset.
+
 ● Model File – Saved as model.pkl and loaded at runtime using pickle.load().
+
 ● Input Handling : The model expects a fixed-format array derived from user inputs.
+
 The integration is done in such a way that the model is loaded once at server start, avoiding the overhead of reloading it for every prediction.
 
 # Dataset
