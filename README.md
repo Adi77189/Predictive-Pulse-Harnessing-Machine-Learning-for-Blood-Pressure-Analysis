@@ -4,7 +4,9 @@ Objective : The Blood Pressure Prediction System is a machine learning-based web
 # Tech Stack
 🔹 Frontend (User Interface Layer)
     ● HTML5 : Used to build the structure of the input form.
+    
     ● CSS3 : For basic styling and layout enhancements.
+    
     ● Jinja2 Templating Engine : Used within Flask to dynamically render the prediction result on the same page without needing a full page reload.
 
 The UI is kept intentionally simple to ensure accessibility even on low-powered devices or slow networks. No JavaScript frameworks are used, ensuring the lowest learning curve for those exploring the code.
