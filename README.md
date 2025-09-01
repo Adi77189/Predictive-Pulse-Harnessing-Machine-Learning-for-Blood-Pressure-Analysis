@@ -67,13 +67,13 @@ The model is trained on a dataset containing health-related attributes and corre
 
 ○ R2 Score
 
-● For a well-prepared dataset, the model typically achieves:
+    ● For a well-prepared dataset, the model typically achieves:
 
 ○ MAE < 10 mmHg
 
 ○ R2 > 0.85
 
-● This means predictions are generally within ±10 mmHg of actual blood pressure values in test data.
+    ● This means predictions are generally within ±10 mmHg of actual blood pressure values in test data.
 
 # Execution Speed / Response Time
 
